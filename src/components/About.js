@@ -10,22 +10,22 @@ function About() {
       <div className="about_content">
         <div className="about_left">
           <p>
-            Hello! My name is Rafael and I enjoy creating web products. I've
-            been in software for 5+ Years as a Product Manager and UI/UX
-            Designer and about 6 months ago feel in-love with coding myself.
+            {
+              "Hello! My name is Rafael and I enjoy creating web products. I've been in software for 5+ Years as a Product Manager and UI/UX Designer and about 6 months ago feel in-love with coding myself."
+            }
           </p>
           <p>
-            I love taking customer focused approach and an agile methodology to
-            get mvp's out quickly, I've been apart of every stage of a product
-            lifecycle and so I bring a lot to the table as a front-end
-            developer.
+            {
+              "I love taking customer focused approach and an agile methodology to get mvp's out quickly, I've been apart of every stage of a product lifecycle and so I bring a lot to the table as a front-end developer."
+            }
           </p>
           <p>
-            I've spent the last 6 Months working on my coding skills and I've
-            worked on projects currently live generating revenue.
+            {
+              " I've spent the last 6 Months working on my coding skills and I've worked on projects currently live generating revenue."
+            }
           </p>
           <p>
-            Here are some of the things I've learned over the past 6 months:
+            {"Here are some of the things I've learned over the past 6 months:"}
           </p>
           <ul className="about_lang">
             <li>JavaScript</li>
