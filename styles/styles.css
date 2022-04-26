@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Mono:wght@300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0b192e;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #0b192e;
+  padding: 20px 40px;
+}
+.nav_logo {
+  width: 40px;
+  height: auto;
+}
+.logo_polygon {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.logo_polygon:hover {
+  fill: #133040;
+}
+.nav_right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav_bt {
+  padding: 0.7rem 1.5rem;
+  color: #63ffda;
+  border-radius: 4px;
+  border: solid 1px #63ffda;
+  font-size: 14px;
+  margin-left: 1rem;
+  font-family: "Roboto Mono";
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.nav_bt:hover {
+  background-color: #133040;
+}
+#nav ol {
+  display: flex;
+  gap: 3rem;
+  counter-reset: item;
+  list-style-type: none;
+}
+#nav li {
+  color: white;
+  padding: 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono";
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+}
+li:before {
+  content: counter(item, decimal-leading-zero) ". ";
+  counter-increment: item;
+  color: #63ffda;
+}
+#nav li:hover {
+  color: #63ffda;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1000px;
+  margin: -50px auto;
+}
+#hero h1 {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  color: #64ffda;
+}
+#hero h2 {
+  font-family: "Inter";
+  font-size: 80px;
+  color: #ccd6f6;
+  margin: 0px;
+}
+#hero h3 {
+  font-family: "Inter";
+  font-size: 70px;
+  color: #8892b0;
+  margin: 0px;
+}
+#hero p {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  color: #8892b0;
+  max-width: 540px;
+  line-height: 1.6rem;
+  margin: 20px 0px 0px 0px;
+}
+#hero button {
+  margin-top: 60px;
+  padding: 1.24rem 1.75rem;
+  background-color: transparent;
+  border-radius: 8px;
+  border: solid 2px #64ffda;
+  color: #64ffda;
+  transition: all 0.3s ease;
+}
+#hero button:hover {
+  background-color: #133040;
+}
+
+.links {
+}
+.links_left {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  gap: 0px;
+}
+.links_icon {
+  color: #8892b0;
+  transition: all 0.3s ease-in-out;
+  margin: 15px;
+}
+.links_icon:hover {
+  color: #64ffda;
+  transform: translate(0, -5px);
+}
+.links_divider {
+  height: 60px;
+  width: 2px;
+  background-color: #8892b0;
+  margin-top: 20px;
+}
+.links_right {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  gap: 0px;
+}
+#links_right a {
+  transform: rotate(90deg);
+  margin-bottom: 80px;
+  color: #8892b0;
+  transition: all 0.3s ease-in-out;
+  font-family: "Roboto Mono";
+  font-size: 12px;
+}
+#links_right a:hover {
+  color: #64ffda;
+  transform: translate(0, -5px) rotate(90deg) ;
+}
