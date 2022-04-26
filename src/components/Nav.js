@@ -12,7 +12,7 @@ function Nav() {
           className="logo_polygon"
           fill="#13304000"
           stroke="#63FFDA"
-          stroke-width="6"
+          strokeWidth="6"
           points="1 35.21 1 103.33 59.99 137.38 118.98 103.33 118.98 35.21 59.99 1.15 1 35.21"
         />
         <g>
