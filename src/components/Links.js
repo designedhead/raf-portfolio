@@ -47,7 +47,9 @@ function Links() {
         <div className="links_divider" />
       </div>
       <div className="links_right" id="links_right">
-        <a href="mailto:mrrafaelmendes@gmail.com">mrrafaelmendes@gmail.com</a>
+        <a href="mailto:mrrafaelmendes@gmail.com" className="animate">
+          mrrafaelmendes@gmail.com
+        </a>
         <div className="links_divider" />
       </div>
     </div>
