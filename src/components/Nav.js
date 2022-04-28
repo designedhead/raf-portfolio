@@ -105,7 +105,7 @@ function Nav() {
               checked={burgerIcon}
               onChange={() => setBurgerIcon(!burgerIcon)}
             />
-            <label for="menu"></label>
+            <label htmlFor="menu"></label>
             <span></span>
           </div>
           <div className="nav_bt">Resume</div>
