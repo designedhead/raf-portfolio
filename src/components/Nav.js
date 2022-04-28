@@ -1,10 +1,34 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Nav() {
   const [nav, setNav] = useState(false);
-  console.log(nav);
+
+  const [navColor, setNavColor] = useState(false);
+
+  useEffect(() => {
+    const handleNavColor = () => {
+      if (window.scrollY >= 90) {
+        setNavColor(true);
+      } else {
+        setNavColor(false);
+      }
+    };
+
+    return () => {
+      // Cleanup the event listener
+      document.addEventListener("scroll", handleNavColor);
+    };
+  }, []);
+
   return (
-    <div className="nav" id="nav">
+    <div
+      className="nav"
+      id="nav"
+      style={{
+        backgroundColor: navColor ? "#071223" : "transparent",
+        boxShadow: navColor ? "0px 6px 16px 1px rgba(0, 0, 0, 0.093)" : "",
+      }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="Layer_1"
