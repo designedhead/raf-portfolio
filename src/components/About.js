@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Raff from "../../public/img/raff.jpg";
+
 function About() {
   return (
     <main className="about" id="about">
