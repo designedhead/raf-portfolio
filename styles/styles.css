@@ -347,7 +347,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  height: 70vh;
+  height: auto;
   max-width: 1000px;
 }
 .about_left {
@@ -718,6 +718,7 @@ a:hover {
   color: var(--title_dark);
   font-size: 15px;
   line-height: 1.5em;
+  text-align: left;
 }
 #projects .icon {
   color: var(--primary);

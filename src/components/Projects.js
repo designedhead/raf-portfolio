@@ -10,8 +10,9 @@ function Projects(props) {
         <div className="horizontal_divider" />
       </div>
       <div className="projects_container">
-        {projects.map((tile) => (
+        {projects.map((tile, i) => (
           <ProjectTile
+            key={i}
             title={tile.title}
             description={tile.description}
             tags={tile.tags}

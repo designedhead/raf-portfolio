@@ -2,7 +2,6 @@ import { useState } from "react";
 
 function Experience() {
   const [experience, setExperience] = useState(0);
-  console.log("id", experience);
   return (
     <main className="experience" id="experience">
       <a className="anchor" id="experience_"></a>
