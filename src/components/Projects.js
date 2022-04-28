@@ -1,3 +1,10 @@
+import Image from "next/image";
+import ResortsImage from "../../public/img/resorts.jpg";
+import LuxImage from "../../public/img/lux.jpg";
+import TippingImage from "../../public/img/tipping.jpg";
+import AirbnbImage from "../../public/img/airbnb.jpg";
+import AmazonImage from "../../public/img/amazon.jpg";
+
 function Projects() {
   return (
     <main className="projects" id="projects">
@@ -80,9 +87,14 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="project-img">
-                <img src="/img/amazon.jpg" alt="" />
-              </div>
+              <a
+                className="project-img"
+                href="https://amazon-opal-one.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src={AmazonImage} alt="" />
+              </a>
             </div>
           </div>
         </li>
@@ -155,9 +167,20 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="project-img" style={{ gridColumn: "1 / 8 " }}>
-                <img src="/img/airbnb.jpg" alt="" />
-              </div>
+              <a
+                className="project-img"
+                style={{ gridColumn: "1 / 8 " }}
+                href="https://airbnbreplicate.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={AirbnbImage}
+                  alt=""
+                  objectFit="contain"
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </li>
@@ -227,9 +250,19 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="project-img">
-                <img src="/img/tipping.jpg" alt="" />
-              </div>
+              <a
+                className="project-img"
+                href="https://amazon-opal-one.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={TippingImage}
+                  alt=""
+                  objectFit="contain"
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </li>
@@ -299,9 +332,20 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="project-img" style={{ gridColumn: "1 / 8 " }}>
-                <img src="/img/lux.jpg" alt="" />
-              </div>
+              <a
+                className="project-img"
+                style={{ gridColumn: "1 / 8 " }}
+                href="https://luxheating.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={LuxImage}
+                  alt=""
+                  objectFit="contain"
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </li>
@@ -371,9 +415,19 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="project-img">
-                <img src="/img/resorts.jpg" alt="" />
-              </div>
+              <a
+                href="https://amazon-opal-one.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-img"
+              >
+                <Image
+                  src={ResortsImage}
+                  alt=""
+                  objectFit="contain"
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </li>

@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function Nav() {
+  const [nav, setNav] = useState(false);
+  console.log(nav);
   return (
     <div className="nav" id="nav">
       <svg
@@ -27,12 +31,28 @@ function Nav() {
         </g>
       </svg>
       <div className="nav_right">
-        <ol>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Work</li>
-          <li>Contact</li>
-        </ol>
+        <div
+          className={nav ? "menu_items active" : "menu_items"}
+          style={{ inset: nav ? "0 0 0 30%" : "0 0 0 120%" }}
+        >
+          <nav>
+            <ol>
+              <li>About</li>
+              <li>Experience</li>
+              <li>Work</li>
+              <li>Contact</li>
+            </ol>
+            <div className="nav_bt mobile">Resume</div>
+          </nav>
+        </div>
+        <div
+          id="toggle"
+          className="burger_menu"
+          onClick={nav ? () => setNav(false) : () => setNav(true)}
+        >
+          <input type="checkbox" />
+          <span></span>
+        </div>
         <div className="nav_bt">Resume</div>
       </div>
     </div>
