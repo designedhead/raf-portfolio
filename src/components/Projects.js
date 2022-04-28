@@ -4,7 +4,7 @@ import { projects } from "../data/projects";
 function Projects(props) {
   return (
     <main className="projects" id="projects">
-      <a className="anchor" id="work_"></a>
+      <a className="anchor" id="work_"/>
       <div className="title">
         <h2 className="">{"Projects I've built"}</h2>
         <div className="horizontal_divider" />

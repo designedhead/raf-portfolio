@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <main className="contact" id="contact">
-      <a className="anchor" id="contact_"></a>
+      <a className="anchor" id="contact_" />
       <h2>{"What's Next?"}</h2>
       <h3>Get in Touch</h3>
       <p>

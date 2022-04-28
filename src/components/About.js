@@ -2,7 +2,7 @@
 function About() {
   return (
     <main className="about" id="about">
-      <a className="anchor" id="about_"></a>
+      <a className="anchor" id="about_" />
       <div className="about_title">
         <h2>About me</h2>
         <div className="horizontal_divider" />
