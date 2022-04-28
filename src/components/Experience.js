@@ -5,6 +5,7 @@ function Experience() {
   console.log("id", experience);
   return (
     <main className="experience" id="experience">
+      <a className="anchor" id="experience_"></a>
       <div className="title">
         <h2 className="">{"Where I've Worked"}</h2>
         <div className="horizontal_divider" />
@@ -54,6 +55,7 @@ function Experience() {
             </div>
             <a
               className="tabs_options_container animate"
+              style={{ color: "#ffffff67", fontFamily: "Roboto Mono" }}
               href="https://www.linkedin.com/in/mrrafaelmendes/"
               target="_blank"
               rel="noopener noreferrer"

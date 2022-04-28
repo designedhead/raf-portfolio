@@ -9,7 +9,13 @@ function Hero() {
           "I’m a Front End Developer coming from a Product Manager and UI/UX Designer Background. I work with React.js and other hip frameworks."
         }
       </p>
-      <button>View Projects</button>
+      <a
+        className="button"
+        href="#projects"
+        style={{ color: "var(--primary)" }}
+      >
+        View Projects
+      </a>
     </main>
   );
 }
