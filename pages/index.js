@@ -25,18 +25,22 @@ export default function Home() {
   const { ref: abouRef, inView: aboutVisible } = useInView({
     /* Optional options */
     threshold: 0.1,
+    triggerOnce: true,
   });
   const { ref: experienceRef, inView: experienceVisible } = useInView({
     /* Optional options */
     threshold: 0.1,
+    triggerOnce: true,
   });
   const { ref: projectsRef, inView: projectsVisible } = useInView({
     /* Optional options */
     threshold: 0.1,
+    triggerOnce: true,
   });
   const { ref: contactRef, inView: contactVisible } = useInView({
     /* Optional options */
     threshold: 0.1,
+    triggerOnce: true,
   });
 
   return (
