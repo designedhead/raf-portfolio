@@ -28,15 +28,15 @@ export default function Home() {
   });
   const { ref: experienceRef, inView: experienceVisible } = useInView({
     /* Optional options */
-    threshold: 0,
+    threshold: 0.1,
   });
   const { ref: projectsRef, inView: projectsVisible } = useInView({
     /* Optional options */
-    threshold: 0,
+    threshold: 0.1,
   });
   const { ref: contactRef, inView: contactVisible } = useInView({
     /* Optional options */
-    threshold: 0,
+    threshold: 0.1,
   });
 
   return (
