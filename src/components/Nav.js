@@ -41,7 +41,7 @@ function Nav() {
           id="Layer_1"
           data-name="Layer 1"
           viewBox="0 0 119.98 138.54"
-          className="nav_logo"
+          className="nav_logo fade-in"
           onClick={() => window.scrollTo(0, 0)}
         >
           <polygon
@@ -69,22 +69,22 @@ function Nav() {
           >
             <nav>
               <ol>
-                <li>
+                <li className="slide-bottom2">
                   <a href="#about_" onClick={clearMobileMenu}>
                     About
                   </a>
                 </li>
-                <li>
+                <li className="slide-bottom3">
                   <a href="#experience_" onClick={clearMobileMenu}>
                     Experience
                   </a>
                 </li>
-                <li>
+                <li className="slide-bottom4">
                   <a href="#work_" onClick={clearMobileMenu}>
                     Work
                   </a>
                 </li>
-                <li>
+                <li className="slide-bottom5">
                   <a href="#contact_" onClick={clearMobileMenu}>
                     Contact
                   </a>
@@ -108,7 +108,13 @@ function Nav() {
             <label htmlFor="menu"></label>
             <span></span>
           </div>
-          <div className="nav_bt">Resume</div>
+          <a
+            href="/Rafael_Mendes_-Frontend.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="nav_bt slide-bottom6">Resume</div>
+          </a>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 function Links() {
   return (
-    <div className="links">
+    <div className="links fade-in">
       <div className="links_left">
         <a
           href="https://github.com/designedhead"

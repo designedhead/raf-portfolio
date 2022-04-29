@@ -4,21 +4,41 @@ import Experience from "../src/components/Experience";
 import Hero from "../src/components/Hero";
 import Links from "../src/components/Links";
 import Nav from "../src/components/Nav";
-//import Projects from "../src/components/Projects";
-//import Footer from "../src/components/Footer";
+import Projects from "../src/components/Projects";
+import Footer from "../src/components/Footer";
 import ScrolltoTop from "../src/components/ScrolltoTop";
-
-import dynamic from "next/dynamic";
 import Head from "next/head";
-
-const Projects = dynamic(() => import("../src/components/Projects"), {
-  loading: () => <p>...</p>,
-});
-const Footer = dynamic(() => import("../src/components/Footer"), {
-  loading: () => <p>...</p>,
-});
+import { useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import Loader from "../src/components/loader";
 
 export default function Home() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2900);
+  }, []);
+
+  const { ref: abouRef, inView: aboutVisible } = useInView({
+    /* Optional options */
+    threshold: 0.1,
+  });
+  const { ref: experienceRef, inView: experienceVisible } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+  const { ref: projectsRef, inView: projectsVisible } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+  const { ref: contactRef, inView: contactVisible } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+
   return (
     <div>
       <Head>
@@ -50,15 +70,41 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <Nav />
-      <ScrolltoTop />
-      <Links />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <div>
+          <Nav />
+          <ScrolltoTop />
+          <Links />
+          <Hero />
+          <div
+            ref={abouRef}
+            className={aboutVisible ? "slide-up-body" : "hidebody"}
+          >
+            <About />
+          </div>
+          <div
+            ref={experienceRef}
+            className={experienceVisible ? "slide-up-body" : "hidebody"}
+          >
+            <Experience />
+          </div>
+          <div
+            ref={projectsRef}
+            className={projectsVisible ? "slide-up-body" : "hidebody"}
+          >
+            <Projects />
+          </div>
+          <div
+            ref={contactRef}
+            className={contactVisible ? "slide-up-body" : "hidebody"}
+          >
+            <Contact />
+          </div>
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
