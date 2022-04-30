@@ -797,6 +797,9 @@ footer {
 /* Media Queries */
 /* Start of Tablet */
 @media screen and (max-width: 768px) {
+  .nav_right {
+    gap: 0px;
+  }
   .project {
     align-items: flex-start;
   }
@@ -915,8 +918,10 @@ footer {
 /* End of Tablet */
 /* Start of Phone */
 @media screen and (max-width: 579px) {
+
+
   .nav {
-    padding: 20px 20px;
+    padding: 20px 10px 20px 20px;
   }
   .hero {
     padding: 0px 24px;
