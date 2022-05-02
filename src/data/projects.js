@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Amazon Replicated",
     description:
-      "As a skill assessment project, I re-created the Amazon website, a user is able to log in with google, add items to the basket and pay for them. Once successfully paid they are shown on the orders page.",
+      "Re-creation of the Amazon website, a user is able to log in with google, add items to the basket and pay for them. Once successfully paid, you can view your order history.",
     github: "https://github.com/designedhead/amazon",
     link: "https://amazon-opal-one.vercel.app/",
     tags: ["React.js", "Next.js", "Redux", "NextAuth", "Stripe.js", "Firebase"],
@@ -10,10 +10,18 @@ export const projects = [
   {
     title: "Airbnb Replicated",
     description:
-      "As a skill assessment project, I re-created the AirBnB website including responsive design, search functionality, calendar day picker, map integration, server-side rendered pages and more.",
+      "Re-creation of AirBnB including responsive design, search functionality, calendar day picker, map integration, server-side rendered pages and more.",
     github: "https://github.com/designedhead/airbnbreplicate",
     link: "https://airbnbreplicate.vercel.app/",
     tags: ["React.js", "Next.js", "GROQ", "Sanity.io"],
+  },
+  {
+    title: "Signal Chat App",
+    description:
+      "Native chat app where you can register/login with email, and send real-time messages in a group chat and create new chats. You can also upload a profile picture and the app modifies the size and compression and uploads it to firebase storage for later use.",
+    github: "https://github.com/designedhead/signal-clone",
+    link: "https://expo.dev/@rafaelabmendes/rafs-signal-clone",
+    tags: ["React Native", "Firebase", "Firebase Auth"],
   },
   {
     title: "Selected Tipping",
