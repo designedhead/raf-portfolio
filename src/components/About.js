@@ -1,5 +1,3 @@
-
-
 function About() {
   return (
     <main className="about " id="about">
@@ -35,9 +33,13 @@ function About() {
             <li>Redux</li>
             <li>Firebase</li>
             <li>Next/auth</li>
+            <li>React Native</li>
+            <li>GraphQL</li>
+            <li>Apollo</li>
             <li>GROQ</li>
             <li>Stripe.js</li>
             <li>Tailwind</li>
+
             <li>Always learning more</li>
           </ul>
         </div>
