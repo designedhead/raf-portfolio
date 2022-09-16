@@ -109,11 +109,12 @@ function Nav() {
             <span></span>
           </div>
           <a
-            href="/Rafael_Mendes_-Frontend.pdf"
+            // href="/Rafael_Mendes_-Frontend.pdf"
+            href="mailto:mrrafaelmendes@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="nav_bt slide-bottom6">Resume</div>
+            <div className="nav_bt slide-bottom6">Say Hello</div>
           </a>
         </div>
       </div>

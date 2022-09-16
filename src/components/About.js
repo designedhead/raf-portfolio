@@ -10,36 +10,34 @@ function About() {
         <div className="about_left">
           <p>
             {
-              "Hello! My name is Rafael and I enjoy creating web products. I've been in software for 5+ Years as a Product Manager and UI/UX Designer and about 6 months ago feel in-love with coding myself."
+              "Worked in Software for 5+ years as a Product Manager & UI/UX Designer. I feel in-love with code I found myself chasing it both as a passion and career path."
             }
           </p>
           <p>
             {
-              "I love taking customer focused approach and an agile methodology to get mvp's out quickly, I've been apart of every stage of a product lifecycle and so I bring a lot to the table as a front-end developer."
+              "I love taking customer focused approach and an agile methodology to get mvp's out quickly, I've been apart of every stage of a product lifecycle and lead teams big & small. As such I bring a lot to the table as a front-end developer."
             }
           </p>
           <p>
             {
-              " I've spent the last 6 Months working on my coding skills and I've worked on projects currently live generating revenue."
+              "Love solving problems and you'll usually find me by my computer building web-apps, creating functional 3D Prints and getting involved with random projects."
             }
           </p>
-          <p>
-            {"Here are some of the things I've learned over the past 6 months:"}
-          </p>
+          <p>{"Here's are some of my skills:"}</p>
           <ul className="about_lang">
             <li>JavaScript</li>
             <li>React.js</li>
             <li>Next.js</li>
+            <li>Apollo/ GraphQL </li>
             <li>Redux</li>
             <li>Firebase</li>
             <li>Next/auth</li>
+            <li>Auth0</li>
             <li>React Native</li>
-            <li>GraphQL</li>
-            <li>Apollo</li>
             <li>GROQ</li>
             <li>Stripe.js</li>
             <li>Tailwind</li>
-
+            <li>Chakra UI</li>
             <li>Always learning more</li>
           </ul>
         </div>

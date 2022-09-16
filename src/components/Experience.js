@@ -25,7 +25,7 @@ function Experience() {
               onClick={() => setExperience(0)}
             >
               <span className={experience === 0 ? "tab_options_selected" : ""}>
-                Selected Group
+                Lush
               </span>
             </div>
             <div
@@ -33,7 +33,7 @@ function Experience() {
               onClick={() => setExperience(1)}
             >
               <span className={experience === 1 ? "tab_options_selected" : ""}>
-                Selected Resorts
+                Selected Group
               </span>
             </div>
             <div
@@ -41,7 +41,7 @@ function Experience() {
               onClick={() => setExperience(2)}
             >
               <span className={experience === 2 ? "tab_options_selected" : ""}>
-                Selected Media
+                Selected Resorts
               </span>
             </div>
             <div
@@ -49,6 +49,14 @@ function Experience() {
               onClick={() => setExperience(3)}
             >
               <span className={experience === 3 ? "tab_options_selected" : ""}>
+                Selected Media
+              </span>
+            </div>
+            <div
+              className="tabs_options_container"
+              onClick={() => setExperience(4)}
+            >
+              <span className={experience === 4 ? "tab_options_selected" : ""}>
                 Diliviri.com
               </span>
             </div>
@@ -67,6 +75,44 @@ function Experience() {
           <div
             className={
               experience === 0
+                ? "block animated animatedFadeInUp fadeInUp"
+                : "hidden"
+            }
+          >
+            <span>
+              Web Engineer - Midweight <a className="animate">@ Lush</a>
+            </span>
+            <p>May 2022 - Present</p>
+            <p>
+              {
+                "Building Business Tools to help nearly 1000 shops around the world. Using NextJS, Apollo to build scalable, internationalised webapps."
+              }
+            </p>
+            <ul>
+              <li>Planned, built and overseen the launch of full features.</li>
+              <li>Set sprint velocity records while completing tickets.</li>
+              <li>
+                {" Trained & Supported Junior Engineers with their day to day."}
+              </li>
+              <li>
+                Built a Redirector worker for production links alongside with a
+                full backoffice dashboard to manage it.
+              </li>
+              <li>
+                {
+                  "Created end of Sprint Videos to display work completed to 100's of coworkers."
+                }
+              </li>
+              <li>
+                {
+                  "Worked closely with BA & PL to research new feature requirements and plan sprints."
+                }
+              </li>
+            </ul>
+          </div>
+          <div
+            className={
+              experience === 1
                 ? "block animated animatedFadeInUp fadeInUp"
                 : "hidden"
             }
@@ -116,7 +162,7 @@ function Experience() {
           </div>
           <div
             className={
-              experience === 1
+              experience === 2
                 ? "block animated animatedFadeInUp fadeInUp"
                 : "hidden"
             }
@@ -159,7 +205,7 @@ function Experience() {
           </div>
           <div
             className={
-              experience === 2
+              experience === 3
                 ? "block animated animatedFadeInUp fadeInUp"
                 : "hidden"
             }

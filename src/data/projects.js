@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "SAM - Lush",
+    description:
+      "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
+    link: "/img/sam.png",
+    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
+  },
+  {
+    title: "Redirector Worker - Lush",
+    description:
+      "Backoffice & Cloud worker to manage production redirects. Bulk upload, url validation for uniqueness, valid response, etc",
+    link: "/img/redirector.png",
+    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
+  },
+  {
     title: "Amazon Replicated",
     description:
       "Re-creation of the Amazon website, a user is able to log in with google, add items to the basket and pay for them. Once successfully paid, you can view your order history.",
