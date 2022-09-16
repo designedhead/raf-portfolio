@@ -89,14 +89,14 @@ function Experience() {
               }
             </p>
             <ul>
-              <li>Planned, built and overseen the launch of full features.</li>
+              <li>Planned, built, and oversaw the launch of full features.</li>
               <li>Set sprint velocity records while completing tickets.</li>
               <li>
                 {" Trained & Supported Junior Engineers with their day to day."}
               </li>
               <li>
-                Built a Redirector worker for production links alongside with a
-                full backoffice dashboard to manage it.
+                Built a Redirector worker for production links alongside a full
+                back office dashboard to manage it.
               </li>
               <li>
                 {
