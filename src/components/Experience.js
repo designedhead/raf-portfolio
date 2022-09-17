@@ -233,7 +233,7 @@ function Experience() {
           </div>
           <div
             className={
-              experience === 3
+              experience === 4
                 ? "block animated animatedFadeInUp fadeInUp"
                 : "hidden"
             }
