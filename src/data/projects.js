@@ -1,16 +1,66 @@
 export const projects = [
   {
+    title: "Library AI",
+    description:
+      "Personal Library management system with AI algorithm to generate recomendations.",
+    link: "https://library.rafaelmendes.co.uk/",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "TRPC",
+      "Prisma",
+      "NextAuth",
+      "AI",
+      "Chakra UI",
+    ],
+  },
+  {
+    title: "Eshop Dashboard - WIP",
+    description:
+      "Custom dashboard for a client to manage their online store. With product builders, time management, order management, etc.",
+    github: "https://github.com/designedhead/eshop",
+    tags: [
+      "Typescript",
+      "React.js",
+      "Next.js",
+      "Apollo",
+      "Supabase",
+      "Chakra UI",
+    ],
+  },
+  {
+    title: "Eshop Customer - WIP",
+    description:
+      "Online ordering system for customers to order from restaurants.",
+    github: "https://github.com/designedhead/eshop-customer",
+    tags: [
+      "Typescript",
+      "React.js",
+      "Next.js",
+      "Apollo",
+      "Supabase",
+      "Chakra UI",
+    ],
+  },
+  {
+    title: "SAM - Lord of Misrule",
+    description:
+      "Heavily styled and animated landing page with commerce functionality. Built with with a team of animators and designers.",
+    link: "https://lom.lush.com/uk/en?_gl=1*1n23pum*_ga*MTQxNDM5NDQ0NC4xNjYwNzUxMDA1*_ga_MVBMWFB13V*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA.*_ga_E68EJV3RYF*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA",
+    tags: ["React.js", "Next.js", "StyledComponents"],
+  },
+  {
     title: "SAM - Lush",
     description:
       "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
-    link: "/img/sam.png",
+    link: "https://lush.com",
     tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
   },
   {
-    title: "Redirector Worker - Lush",
+    title: "Lush.com - Redirector Edge Worker",
     description:
-      "Backoffice & Cloud worker to manage production redirects. Bulk upload, url validation for uniqueness, valid response, etc",
-    link: "/img/redirector.png",
+      "Backoffice & Cloud worker to manage redirects. Edge Redirection, Bulk upload, url validation for uniqueness, valid response, etc",
+    link: "https://lush.com",
     tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
   },
   {

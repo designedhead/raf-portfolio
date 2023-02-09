@@ -7,7 +7,7 @@ function Hero() {
       <h3 className="slide-up3">I build things.</h3>
       <p className="slide-up4">
         {
-          "Web Engineer & Problem solver with a Product Manager and UI/UX Designer Background."
+          "Web Engineer & Problem solver with a Product Manager and UI/UX Background."
         }
       </p>
       <a
