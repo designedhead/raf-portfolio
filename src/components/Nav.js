@@ -74,6 +74,11 @@ function Nav() {
                     About
                   </a>
                 </li>
+                <li className="slide-bottom2">
+                  <a href="#skillset_" onClick={clearMobileMenu}>
+                    Skills
+                  </a>
+                </li>
                 <li className="slide-bottom3">
                   <a href="#experience_" onClick={clearMobileMenu}>
                     Experience

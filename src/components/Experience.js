@@ -6,7 +6,7 @@ function Experience() {
     <main className="experience" id="experience">
       <a className="anchor" id="experience_" />
       <div className="title">
-        <h2 className="">{"Where I've Worked"}</h2>
+        <h2>{"Where I've Worked"}</h2>
         <div className="horizontal_divider" />
       </div>
       <div className="experience_content">

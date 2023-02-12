@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Library AI",
     description:
-      "Personal Library management system with AI algorithm to generate recomendations.",
+      "Personal Library management system with AI algorithm to generate recomendations, with explanations on why you might enjoy it as well as an AI generated image based on the description of the book.",
     link: "https://library.rafaelmendes.co.uk/",
     tags: [
       "Typescript",
@@ -13,6 +13,15 @@ export const projects = [
       "AI",
       "Chakra UI",
     ],
+    image: "/projects/library.jpeg",
+  },
+  {
+    title: "SAM - Lush",
+    description:
+      "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
+    link: "https://lush.com",
+    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
+    image: "/projects/sam.png",
   },
   {
     title: "Eshop Dashboard - WIP",
@@ -27,6 +36,7 @@ export const projects = [
       "Supabase",
       "Chakra UI",
     ],
+    image: "/projects/eshop.png",
   },
   {
     title: "Eshop Customer - WIP",
@@ -41,6 +51,7 @@ export const projects = [
       "Supabase",
       "Chakra UI",
     ],
+    image: "/projects/sam.png",
   },
   {
     title: "SAM - Lord of Misrule",
@@ -48,13 +59,6 @@ export const projects = [
       "Heavily styled and animated landing page with commerce functionality. Built with with a team of animators and designers.",
     link: "https://lom.lush.com/uk/en?_gl=1*1n23pum*_ga*MTQxNDM5NDQ0NC4xNjYwNzUxMDA1*_ga_MVBMWFB13V*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA.*_ga_E68EJV3RYF*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA",
     tags: ["React.js", "Next.js", "StyledComponents"],
-  },
-  {
-    title: "SAM - Lush",
-    description:
-      "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
-    link: "https://lush.com",
-    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
   },
   {
     title: "Lush.com - Redirector Edge Worker",

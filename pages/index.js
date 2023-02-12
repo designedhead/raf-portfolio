@@ -11,6 +11,7 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import Loader from "../src/components/loader";
+import Skills from "../src/components/Skills";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -23,6 +24,11 @@ export default function Home() {
   }, []);
 
   const { ref: abouRef, inView: aboutVisible } = useInView({
+    /* Optional options */
+    threshold: 0.1,
+    triggerOnce: true,
+  });
+  const { ref: skillsRef, inView: skillsVisible } = useInView({
     /* Optional options */
     threshold: 0.1,
     triggerOnce: true,
@@ -87,6 +93,12 @@ export default function Home() {
             className={aboutVisible ? "slide-up-body" : "hidebody"}
           >
             <About />
+          </div>
+          <div
+            ref={skillsRef}
+            className={skillsVisible ? "slide-up-body" : "hidebody"}
+          >
+            <Skills />
           </div>
           <div
             ref={experienceRef}

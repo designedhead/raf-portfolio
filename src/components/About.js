@@ -10,36 +10,19 @@ function About() {
         <div className="about_left">
           <p>
             {
-              "Worked in Software for 5+ years as a Product Manager & UI/UX Designer. I feel in-love with code I found myself chasing it both as a passion and career path."
+              "With over 5 years of experience in the software industry as a Product Manager and UI/UX Designer, I have developed a deep understanding of the entire product lifecycle and the ability to lead teams of varying sizes. I have a customer-focused approach and an agile mindset, allowing me to quickly deliver minimum viable products and exceed expectations."
             }
           </p>
           <p>
             {
-              "I love taking customer focused approach and an agile methodology to get mvp's out quickly, I've been apart of every stage of a product lifecycle and lead teams big & small. As such I bring a lot to the table as a front-end developer."
+              "As a front-end developer, I bring a wealth of experience and a passion for problem-solving to the table. My love for coding has led me to explore new and innovative solutions. I am confident in my abilities and eager to continue pushing the boundaries of what is possible."
             }
           </p>
           <p>
             {
-              "Love solving problems and you'll usually find me by my computer building web-apps, creating functional 3D Prints and getting involved with random projects."
+              "You'll usually find me by my computer building web-apps, creating functional 3D Prints and getting involved with random projects."
             }
           </p>
-          <p>{"Here's are some of my skills:"}</p>
-          <ul className="about_lang">
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Next.js</li>
-            <li>Apollo/ GraphQL </li>
-            <li>Redux</li>
-            <li>Firebase</li>
-            <li>Next/auth</li>
-            <li>Auth0</li>
-            <li>React Native</li>
-            <li>GROQ</li>
-            <li>Stripe.js</li>
-            <li>Tailwind</li>
-            <li>Chakra UI</li>
-            <li>Always learning more</li>
-          </ul>
         </div>
         <div className="about_right">
           <div className="about_image_wrapper">
