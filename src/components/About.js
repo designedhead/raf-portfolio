@@ -10,12 +10,12 @@ function About() {
         <div className="about_left">
           <p>
             {
-              "With over 5 years of experience in the software industry as a Product Manager and UI/UX Designer, I have developed a deep understanding of the entire product lifecycle and the ability to lead teams of varying sizes. I have a customer-focused approach and an agile mindset, allowing me to quickly deliver minimum viable products and exceed expectations."
+              "With over 5 years of experience in the software industry, including as a Product Manager and UI/UX Designer, I have developed a deep understanding of the entire product lifecycle and the ability to lead teams of varying sizes. I have a customer-focused approach and an agile mindset, allowing me to quickly deliver minimum viable products and exceed expectations."
             }
           </p>
           <p>
             {
-              "As a front-end developer, I bring a wealth of experience and a passion for problem-solving to the table. My love for coding has led me to explore new and innovative solutions. I am confident in my abilities and eager to continue pushing the boundaries of what is possible."
+              "As a full-stack developer, I bring a wealth of experience and a passion for problem-solving to the table. My love for coding has led me to explore new and innovative solutions. I am confident in my abilities and eager to continue pushing the boundaries of what is possible."
             }
           </p>
           <p>
