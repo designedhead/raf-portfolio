@@ -14,6 +14,7 @@ export const projects = [
       "Chakra UI",
     ],
     image: "/projects/library.jpeg",
+    link: "https://library.rafaelmendes.co.uk",
   },
   {
     title: "SAM - Lush",
@@ -37,6 +38,7 @@ export const projects = [
       "Chakra UI",
     ],
     image: "/projects/eshop.png",
+    github: "https://github.com/designedhead/eshop",
   },
   {
     title: "Eshop Customer - WIP",
@@ -52,6 +54,7 @@ export const projects = [
       "Chakra UI",
     ],
     image: "/projects/sam.png",
+    github: "https://github.com/designedhead/eshop-customer",
   },
   {
     title: "SAM - Lord of Misrule",
