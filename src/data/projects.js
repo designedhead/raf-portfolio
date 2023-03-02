@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Library AI",
     description:
-      "Personal Library management system with AI algorithm to generate recomendations, with explanations on why you might enjoy it as well as an AI generated image based on the description of the book.",
+      "Personal Library management system with AI algorithm to generate recommendations, with explanations on why you might enjoy it as well as an AI-generated image based on the description of the book.",
     link: "https://library.rafaelmendes.co.uk/",
     tags: [
       "Typescript",
