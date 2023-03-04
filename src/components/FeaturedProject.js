@@ -1,13 +1,11 @@
 import React from "react";
 
 const FeaturedProject = ({ index, tile }) => {
-  console.log("🚀  tile", tile);
   const isOdd = index % 2 === 0;
   const projectDirection = isOdd
     ? "project-content-left"
     : "project-content-right";
   const imageDirection = isOdd ? "project-img-right" : "project-img-left";
-  console.log("🚀  index", "project-img", imageDirection);
 
   const { title, description, tags, github, link } = tile;
   return (
@@ -26,7 +24,10 @@ const FeaturedProject = ({ index, tile }) => {
               ))}
             </ul>
           </div>
-          <div className="tile_header_right">
+          <div
+            className="tile_header_right"
+            style={{ ...(!isOdd && { justifyContent: "flex-end" }) }}
+          >
             {github && (
               <a href={github} target="_blank" rel="noopener noreferrer">
                 <svg
