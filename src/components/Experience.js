@@ -80,7 +80,8 @@ function Experience() {
             }
           >
             <span>
-              Web Engineer - Midweight <a className="animate">@ Lush</a>
+              Full Stack Developer (Web Engineer){" "}
+              <a className="animate">@ Lush</a>
             </span>
             <p>May 2022 - Present</p>
             <p>
@@ -89,24 +90,33 @@ function Experience() {
               }
             </p>
             <ul>
-              <li>Planned, built, and oversaw the launch of full features.</li>
-              <li>Set sprint velocity records while completing tickets.</li>
+              <li>
+                I spent my time at Lush building business tools and scalable,
+                internationalised web applications.
+              </li>
+              <li>
+                One of my notable projects involved developing shop management
+                tools for Lush using Next.js, JavaScript, GraphQL, and Apollo.
+              </li>
               <li>
                 {" Trained & Supported Junior Engineers with their day to day."}
               </li>
               <li>
-                Built a Redirector worker for production links alongside a full
-                back office dashboard to manage it.
+                I also built Edge workers for Lush.com URL redirecting using
+                edge workers. Through these projects, I was able to streamline
+                the day-to-day operations of Lush shops and improve efficiency.
               </li>
               <li>
-                {
-                  "Created end of Sprint Videos to display work completed to 100's of coworkers."
-                }
+                In my role, I worked closely with the shop management team to
+                gather requirements and provide technical expertise. I
+                participated in code reviews, testing, and debugging to ensure
+                high-quality and secure software.
               </li>
               <li>
-                {
-                  "Worked closely with BA & PL to research new feature requirements and plan sprints."
-                }
+                Additionally, I mentored junior software engineers and provided
+                technical guidance and support as needed. To stay current with
+                industry trends and new technologies, I continuously improved my
+                skills and knowledge.
               </li>
             </ul>
           </div>

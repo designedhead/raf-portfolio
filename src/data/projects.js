@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "Video Template Library",
+    description:
+      "Built for a Video Marketing Company, to share in-house built templates accross the company affectively.",
+    link: "https://library.rafaelmendes.co.uk/",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "TRPC",
+      "Prisma",
+      "NextAuth",
+      "Cloudinary",
+      "Chakra UI",
+      "Google Drive Api",
+    ],
+    image: "/projects/video-library.jpg",
+    link: "https://video.rafaelmendes.co.uk",
+  },
+  {
     title: "Library AI",
     description:
       "Personal Library management system with AI algorithm to generate recommendations, with explanations on why you might enjoy it as well as an AI-generated image based on the description of the book.",
