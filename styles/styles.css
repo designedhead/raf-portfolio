@@ -610,10 +610,12 @@ a:hover {
   .links_left {
     left: 5px;
     width: 40px;
+    z-index: 9999;
   }
   .links_right {
     right: 5px;
     width: 40px;
+    z-index: 9999
   }
   .about {
     height: auto;
