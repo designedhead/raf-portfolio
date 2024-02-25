@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "SAM - Lush",
+    description:
+      "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
+    link: "https://lush.com",
+    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
+    image: "/projects/sam.png",
+  },
+  {
+    title: "SAM - Native",
+    description:
+      "Native counterpart of a web application build with React Native, made with a focus on performance and speed.",
+    tags: ["React Native", "Expo", "Apollo", "Tailwind"],
+  },
+  {
+    title: "Lush AI",
+    description:
+      "AI Powered chatbot able to advice and answer questions on any Lush Product, built for customers and staff training.",
+    link: "https://lush.com",
+    tags: ["Typescript", "Bun", "Vectors", "AI"],
+  },
+  {
+    title: "Lush Chat Order Tracking System",
+    description:
+      "Backend to connect front-end chatbot with Lush's internal systems to track orders and customer queries.",
+    link: "https://lush.com",
+    tags: ["Typescript", "Express.js"],
+  },
+  {
     title: "Video Template Library",
     description:
       "Built for a Video Marketing Company, to share in-house built templates accross the company affectively.",
@@ -18,63 +46,6 @@ export const projects = [
     link: "https://video.rafaelmendes.co.uk",
   },
   {
-    title: "Library AI",
-    description:
-      "Personal Library management system with AI algorithm to generate recommendations, with explanations on why you might enjoy it as well as an AI-generated image based on the description of the book.",
-    link: "https://library.rafaelmendes.co.uk/",
-    tags: [
-      "Typescript",
-      "Next.js",
-      "TRPC",
-      "Prisma",
-      "NextAuth",
-      "AI",
-      "Chakra UI",
-    ],
-    image: "/projects/library.jpeg",
-    link: "https://library.rafaelmendes.co.uk",
-  },
-  {
-    title: "SAM - Lush",
-    description:
-      "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
-    link: "https://lush.com",
-    tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
-    image: "/projects/sam.png",
-  },
-  {
-    title: "Eshop Dashboard - WIP",
-    description:
-      "Custom dashboard for a client to manage their online store. With product builders, time management, order management, etc.",
-    github: "https://github.com/designedhead/eshop",
-    tags: [
-      "Typescript",
-      "React.js",
-      "Next.js",
-      "Apollo",
-      "Supabase",
-      "Chakra UI",
-    ],
-    image: "/projects/eshop.png",
-    github: "https://github.com/designedhead/eshop",
-  },
-  {
-    title: "Eshop Customer - WIP",
-    description:
-      "Online ordering system for customers to order from restaurants.",
-    github: "https://github.com/designedhead/eshop-customer",
-    tags: [
-      "Typescript",
-      "React.js",
-      "Next.js",
-      "Apollo",
-      "Supabase",
-      "Chakra UI",
-    ],
-    image: "/projects/sam.png",
-    github: "https://github.com/designedhead/eshop-customer",
-  },
-  {
     title: "SAM - Lord of Misrule",
     description:
       "Heavily styled and animated landing page with commerce functionality. Built with with a team of animators and designers.",
@@ -87,30 +58,6 @@ export const projects = [
       "Backoffice & Cloud worker to manage redirects. Edge Redirection, Bulk upload, url validation for uniqueness, valid response, etc",
     link: "https://lush.com",
     tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
-  },
-  {
-    title: "Amazon Replicated",
-    description:
-      "Re-creation of the Amazon website, a user is able to log in with google, add items to the basket and pay for them. Once successfully paid, you can view your order history.",
-    github: "https://github.com/designedhead/amazon",
-    link: "https://amazon-opal-one.vercel.app/",
-    tags: ["React.js", "Next.js", "Redux", "NextAuth", "Stripe.js", "Firebase"],
-  },
-  {
-    title: "Airbnb Replicated",
-    description:
-      "Re-creation of AirBnB including responsive design, search functionality, calendar day picker, map integration, server-side rendered pages and more.",
-    github: "https://github.com/designedhead/airbnbreplicate",
-    link: "https://airbnbreplicate.vercel.app/",
-    tags: ["React.js", "Next.js", "GROQ", "Sanity.io"],
-  },
-  {
-    title: "Signal Chat App",
-    description:
-      "Native chat app where you can register/login with email, and send real-time messages in a group chat and create new chats. You can also upload a profile picture and the app modifies the size and compression and uploads it to firebase storage for later use.",
-    github: "https://github.com/designedhead/signal-clone",
-    link: "https://expo.dev/@rafaelabmendes/rafs-signal-clone",
-    tags: ["React Native", "Firebase", "Firebase Auth"],
   },
   {
     title: "Selected Tipping",
@@ -138,10 +85,8 @@ export const projects = [
   },
   {
     title: "See other Projects",
-    description:
-      "See other projects I was involved with both managing the Product Team or building the UI/UX with Framer, Adobe xd or Figma.",
-    github: "",
-    link: "https://www.podsoftware.co.uk/portfolio-list/",
+    description: "See other projects I was involved with...",
+    link: "https://github.com/designedhead",
     tags: [],
   },
 ];

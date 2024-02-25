@@ -11,14 +11,8 @@ function Projects() {
           <h2>{"Projects I've built"}</h2>
           <div className="horizontal_divider" />
         </div>
-        <div className="featured-projects-containter">
-          {projects.slice(0, 3).map((tile, i) => (
-            <FeaturedProject key={i} tile={tile} index={i} />
-          ))}
-        </div>
-        <h5 className="featured_h5">Other Noteworthy Projects</h5>
         <div className="projects_container">
-          {projects.slice(3).map((tile, i) => (
+          {projects.map((tile, i) => (
             <ProjectTile
               key={i}
               title={tile.title}
