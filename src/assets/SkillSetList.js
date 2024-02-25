@@ -1,24 +1,19 @@
 import {
   ApolloIcon,
   Auth0Icon,
-  ChakraUIIcon,
+  BunIcon,
   CypressIcon,
   ExpressJsIcon,
-  FirebaseIcon,
   GraphQlIcon,
   JestIcon,
   JSIcon,
-  NextAuthIcon,
   NextJsIcon,
   NodeJsIcon,
-  PrismaIcon,
+  PlaywrightIcon,
   ReactIcon,
   RedisIcon,
-  ReduxIcon,
   StripeIcon,
-  StyledComponentsIcon,
   TailwindCSSIcon,
-  TrpcIcon,
   TypescriptIcon,
 } from "../assets/Icons";
 
@@ -49,6 +44,11 @@ const skills = [
     icon: <NodeJsIcon />,
   },
   {
+    name: "Bun",
+    colour: "#F7DF1E",
+    icon: <BunIcon />,
+  },
+  {
     name: "Express.js",
     colour: "#F7DF1E",
     icon: <ExpressJsIcon />,
@@ -58,12 +58,6 @@ const skills = [
     colour: "#F7DF1E",
     icon: <TailwindCSSIcon />,
   },
-  {
-    name: "Chakra UI",
-    colour: "#F7DF1E",
-    icon: <ChakraUIIcon />,
-  },
-
   {
     name: "GraphQL",
     colour: "#F7DF1E",
@@ -80,34 +74,9 @@ const skills = [
     icon: <Auth0Icon />,
   },
   {
-    name: "NextAuth",
-    colour: "black",
-    icon: <NextAuthIcon />,
-  },
-  {
     name: "React Native",
     colour: "#53C1DE",
     icon: <ReactIcon />,
-  },
-  {
-    name: "TRPC",
-    colour: "black",
-    icon: <TrpcIcon />,
-  },
-  {
-    name: "Redux Toolkit",
-    colour: "black",
-    icon: <ReduxIcon />,
-  },
-  {
-    name: "Prisma",
-    colour: "black",
-    icon: <PrismaIcon />,
-  },
-  {
-    name: "Firebase",
-    colour: "black",
-    icon: <FirebaseIcon />,
   },
   {
     name: "Stripe.js",
@@ -120,6 +89,11 @@ const skills = [
     icon: <JestIcon />,
   },
   {
+    name: "Playwright",
+    colour: "black",
+    icon: <PlaywrightIcon />,
+  },
+  {
     name: "Cypress",
     colour: "black",
     icon: <CypressIcon />,
@@ -128,11 +102,6 @@ const skills = [
     name: "Redis",
     colour: "black",
     icon: <RedisIcon />,
-  },
-  {
-    name: "Styled Components",
-    colour: "#F7DF1E",
-    icon: <StyledComponentsIcon />,
   },
 ];
 
