@@ -6,6 +6,7 @@ function Links() {
           href="https://github.com/designedhead"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ function Links() {
           href="https://www.linkedin.com/in/mrrafaelmendes/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +49,11 @@ function Links() {
         <div className="links_divider" />
       </div>
       <div className="links_right" id="links_right">
-        <a href="mailto:mrrafaelmendes@gmail.com" className="animate">
+        <a
+          href="mailto:mrrafaelmendes@gmail.com"
+          className="animate"
+          aria-label="Email"
+        >
           mrrafaelmendes@gmail.com
         </a>
         <div className="links_divider" />
