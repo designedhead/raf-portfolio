@@ -84,7 +84,7 @@ function Experience() {
             </span>
             <p>May 2022 - Present</p>
             <p>
-              Developing and deploying scalable, internationalized web and
+              Developing and deploying scalable, internationalised web and
               native applications, AI Powered apps, backends and supergraphs.
             </p>
             <ul>
