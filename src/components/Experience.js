@@ -80,43 +80,32 @@ function Experience() {
             }
           >
             <span>
-              Full Stack Developer (Web Engineer){" "}
-              <a className="animate">@ Lush</a>
+              Senior Full Stack Engineer <a className="animate">@ Lush</a>
             </span>
             <p>May 2022 - Present</p>
             <p>
-              {
-                "Building Business Tools to help nearly 1000 shops around the world. Using NextJS, Apollo to build scalable, internationalised webapps."
-              }
+              Developing and deploying scalable, internationalized web and
+              native applications, AI Powered apps, backends and supergraphs.
             </p>
             <ul>
               <li>
-                I spent my time at Lush building business tools and scalable,
-                internationalised web applications.
+                Introduced and implemented enhanced search tools that resulted
+                in annual cost savings of £250k+.
               </li>
               <li>
-                One of my notable projects involved developing shop management
-                tools for Lush using Next.js, JavaScript, GraphQL, and Apollo.
+                Engineered caching mechanisms, resulting in a monthly cost
+                reduction of £500.
               </li>
               <li>
-                {" Trained & Supported Junior Engineers with their day to day."}
+                Built and Led a team of 3 engineers, providing guidance,
+                overseeing daily operations, conducting 1-on-1 sessions and
+                performance reviews.
               </li>
               <li>
-                I also built Edge workers for Lush.com URL redirecting using
-                edge workers. Through these projects, I was able to streamline
-                the day-to-day operations of Lush shops and improve efficiency.
-              </li>
-              <li>
-                In my role, I worked closely with the shop management team to
-                gather requirements and provide technical expertise. I
-                participated in code reviews, testing, and debugging to ensure
-                high-quality and secure software.
-              </li>
-              <li>
-                Additionally, I mentored junior software engineers and provided
-                technical guidance and support as needed. To stay current with
-                industry trends and new technologies, I continuously improved my
-                skills and knowledge.
+                Initiated numerous projects from inception, including AI-powered
+                recommendation systems, expansive web applications, native
+                Android solutions, complex backends, GraphQL supergraphs, and
+                macOS tooling for QA.
               </li>
             </ul>
           </div>
