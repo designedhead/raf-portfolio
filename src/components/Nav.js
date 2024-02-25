@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 
 function Nav() {
+  const isServer = typeof window === "undefined";
+  const windowY = isServer ? 0 : window?.scrollY || 0;
+
   const [nav, setNav] = useState(false);
 
   const [navColor, setNavColor] = useState(false);
@@ -11,20 +14,17 @@ function Nav() {
     setNav(false);
     setBurgerIcon(false);
   };
+
   useEffect(() => {
     const handleNavColor = () => {
-      if (window.scrollY >= 90) {
-        setNavColor(true);
-      } else {
-        setNavColor(false);
-      }
+      setNavColor(window.scrollY >= 90);
     };
-
+    handleNavColor();
     return () => {
       // Cleanup the event listener
       document.addEventListener("scroll", handleNavColor);
     };
-  }, []);
+  }, [windowY]);
 
   return (
     <div
@@ -32,7 +32,7 @@ function Nav() {
       id="nav"
       style={{
         backgroundColor: navColor ? "#071223" : "transparent",
-        boxShadow: navColor ? "0px 6px 16px 1px rgba(0, 0, 0, 0.093)" : "",
+        boxShadow: navColor ? "0px 6px 16px 1px rgba(0, 0, 0, 0.093)" : "none",
       }}
     >
       <div className="nav_wrap">
