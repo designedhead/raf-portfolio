@@ -39,6 +39,7 @@ a:-webkit-any-link {
 /* Scroll to top */
 
 .scrolltotop {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +50,9 @@ a:-webkit-any-link {
   width: 70px;
   z-index: 99;
   transition: all 0.3s ease-in-out;
+}
+.scrolltotop:hover {
+  opacity: 80%;
 }
 .scroll_value {
   background-color: white;
