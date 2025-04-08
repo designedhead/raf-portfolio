@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "React Focus Point",
+    description:
+      "A React component that enables dynamic focal point positioning for responsive images, ensuring the main subject remains visible across different screen sizes and aspect ratios.",
+    github: "https://github.com/designedhead/react-focus-point",
+    tags: ["React", "TypeScript", "package", "Image Handling"],
+  },
+  {
     title: "Wedsite.ai",
     description:
       "Full-stack AI-powered website builder platform with drag-and-drop editor, automated subdomain system, and AI-powered onboarding tools.",
