@@ -4,7 +4,7 @@
   --secondary: #133040;
   --title_light: #ccd6f6;
   --title_dark: #8892b0;
-  --tab_height: 45px;
+  --tab_height: 60px;
   --card-color: rgb(17 34 64 / 70%);
 }
 a.anchor {
@@ -508,6 +508,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  height: 500px;
 }
 .experience_tabs {
   width: max-content;
@@ -521,7 +522,7 @@ a:hover {
   border-radius: 4px;
 }
 .tabs_vertical_selector {
-  height: 45px;
+  height: 60px;
   width: 3px;
   border-radius: 4px;
   background-color: var(--primary);
@@ -537,7 +538,7 @@ a:hover {
   flex-direction: column;
 }
 .tabs_options_container {
-  padding: 14px 24px;
+  padding: 8px 24px;
   color: #ffffff67;
   width: 180px;
   font-family: "Roboto Mono";
@@ -545,6 +546,9 @@ a:hover {
   border: none;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 .tab_options_selected {
   color: var(--primary);
@@ -557,7 +561,28 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: auto;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Custom scrollbar styling */
+.experience_text_content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.experience_text_content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.experience_text_content::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.experience_text_content::-webkit-scrollbar-thumb:hover {
+  background: #64ffda;
 }
 
 #experience_text_content span {
@@ -1155,7 +1180,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 90px auto 0px auto;
-  height: 80vh;
+  height: auto;
   max-width: 1000px;
 }
 

@@ -1,19 +1,27 @@
 import {
   ApolloIcon,
   Auth0Icon,
+  AWSIcon,
   BunIcon,
+  CICDIcon,
   CypressIcon,
+  DockerIcon,
   ExpressJsIcon,
+  GCPIcon,
   GraphQlIcon,
   JestIcon,
   JSIcon,
+  KubernetesIcon,
   NextJsIcon,
   NodeJsIcon,
   PlaywrightIcon,
+  RadixUIIcon,
   ReactIcon,
+  ReactNativeIcon,
   RedisIcon,
   StripeIcon,
   TailwindCSSIcon,
+  TerraformIcon,
   TypescriptIcon,
 } from "../assets/Icons";
 
@@ -34,24 +42,14 @@ const skills = [
     icon: <ReactIcon />,
   },
   {
+    name: "React Native",
+    colour: "#53C1DE",
+    icon: <ReactNativeIcon />,
+  },
+  {
     name: "Next.js",
     colour: "#F7DF1E",
     icon: <NextJsIcon />,
-  },
-  {
-    name: "Node.js",
-    colour: "#F7DF1E",
-    icon: <NodeJsIcon />,
-  },
-  {
-    name: "Bun",
-    colour: "#F7DF1E",
-    icon: <BunIcon />,
-  },
-  {
-    name: "Express.js",
-    colour: "#F7DF1E",
-    icon: <ExpressJsIcon />,
   },
   {
     name: "Tailwind CSS",
@@ -64,6 +62,41 @@ const skills = [
     icon: <GraphQlIcon />,
   },
   {
+    name: "Kubernetes",
+    colour: "#F7DF1E",
+    icon: <KubernetesIcon />,
+  },
+  {
+    name: "Docker",
+    colour: "#F7DF1E",
+    icon: <DockerIcon />,
+  },
+  {
+    name: "Terraform",
+    colour: "#F7DF1E",
+    icon: <TerraformIcon />,
+  },
+  {
+    name: "Node.js",
+    colour: "#F7DF1E",
+    icon: <NodeJsIcon />,
+  },
+  {
+    name: "Bun",
+    colour: "#F7DF1E",
+    icon: <BunIcon />,
+  },
+  {
+    name: "AWS",
+    colour: "#F7DF1E",
+    icon: <AWSIcon />,
+  },
+  {
+    name: "GCP",
+    colour: "#F7DF1E",
+    icon: <GCPIcon />,
+  },
+  {
     name: "Apollo",
     colour: "#F7DF1E",
     icon: <ApolloIcon />,
@@ -72,11 +105,6 @@ const skills = [
     name: "Auth0",
     colour: "#F7DF1E",
     icon: <Auth0Icon />,
-  },
-  {
-    name: "React Native",
-    colour: "#53C1DE",
-    icon: <ReactIcon />,
   },
   {
     name: "Stripe.js",

@@ -25,7 +25,7 @@ function Experience() {
               onClick={() => setExperience(0)}
             >
               <span className={experience === 0 ? "tab_options_selected" : ""}>
-                Lush
+                Senior Full Stack Engineer
               </span>
             </div>
             <div
@@ -33,7 +33,7 @@ function Experience() {
               onClick={() => setExperience(1)}
             >
               <span className={experience === 1 ? "tab_options_selected" : ""}>
-                Selected Group
+                Full Stack Developer
               </span>
             </div>
             <div
@@ -41,23 +41,7 @@ function Experience() {
               onClick={() => setExperience(2)}
             >
               <span className={experience === 2 ? "tab_options_selected" : ""}>
-                Selected Resorts
-              </span>
-            </div>
-            <div
-              className="tabs_options_container"
-              onClick={() => setExperience(3)}
-            >
-              <span className={experience === 3 ? "tab_options_selected" : ""}>
-                Selected Media
-              </span>
-            </div>
-            <div
-              className="tabs_options_container"
-              onClick={() => setExperience(4)}
-            >
-              <span className={experience === 4 ? "tab_options_selected" : ""}>
-                Diliviri.com
+                Technical Business & Product Manager
               </span>
             </div>
             <a
@@ -82,30 +66,71 @@ function Experience() {
             <span>
               Senior Full Stack Engineer <a className="animate">@ Lush</a>
             </span>
-            <p>May 2022 - Present</p>
+            <p>2023 - 2025</p>
             <p>
-              Developing and deploying scalable, internationalised web and
-              native applications, AI Powered apps, backends and supergraphs.
+              Designed and optimised high-traffic systems handling 300+ requests
+              per second, implementing advanced caching strategies and load
+              balancing techniques.
             </p>
             <ul>
               <li>
-                Introduced and implemented enhanced search tools that resulted
-                in annual cost savings of £250k+.
+                Implemented solutions leading to annual cost savings exceeding
+                £250k.
               </li>
               <li>
-                Engineered caching mechanisms, resulting in a monthly cost
-                reduction of £500.
-              </li>
-              <li>
-                Built and Led a team of 3 engineers, providing guidance,
-                overseeing daily operations, conducting 1-on-1 sessions and
+                Led a team of 3 engineers providing technical guidance,
+                overseeing daily operations, conducting 1-on-1 sessions, and
                 performance reviews.
               </li>
               <li>
-                Initiated numerous projects from inception, including AI-powered
-                recommendation systems, expansive web applications, native
-                Android solutions, complex backends, GraphQL supergraphs, and
-                macOS tooling for QA.
+                Developed and deployed scalable web applications using React,
+                TypeScript, and Next.js with internationalisation support.
+              </li>
+              <li>
+                Built complex UI components with Radix UI primitives and
+                Tailwind CSS, creating accessible, responsive, and visually
+                consistent interfaces.
+              </li>
+              <li>
+                Built AI-powered recommendation systems leveraging machine
+                learning models to increase user engagement.
+              </li>
+              <li>
+                Architected GraphQL supergraphs with Apollo Federation, enabling
+                modular and scalable API design.
+              </li>
+              <li>
+                Developed native mobile applications using React Native with
+                TypeScript for cross-platform compatibility.
+              </li>
+              <li>
+                Created robust backend services with Node.js, Express, Hono and
+                Bun for improved performance.
+              </li>
+              <li>
+                Implemented real-time data communication using GraphQL
+                subscriptions with WebSockets and SSE for live updates in
+                critical applications.
+              </li>
+              <li>
+                Worked on Kubernetes clusters on GCP with autoscaling
+                capabilities.
+              </li>
+              <li>
+                Implemented infrastructure as code using Terraform to manage AWS
+                and GCP resources, ensuring consistent environments across
+                development and production.
+              </li>
+              <li>
+                Set up multi-region deployments on AWS ECS and GCP GKE for
+                improved global latency.
+              </li>
+              <li>
+                Built and improved CI/CD pipelines using GitLab and Docker for
+                automated testing and deployment.
+              </li>
+              <li>
+                Built native QA macOS tooling for internal testing processes.
               </li>
             </ul>
           </div>
@@ -117,47 +142,47 @@ function Experience() {
             }
           >
             <span>
-              Business &amp; Product Manager{" "}
-              <a className="animate">@ Selected Group</a>
+              Full Stack Developer <a className="animate">@ Lush</a>
             </span>
-            <p>May 2019 - May 2022</p>
+            <p>2022 - 2023</p>
             <p>
-              {
-                " Selected is a software company, operating mostly within the hospitality industry with a wide portfolio of solutions available internationally."
-              }
+              Built responsive web applications using Next.js with both Pages
+              and App Router, React 18, and TypeScript for type safety.
             </p>
             <ul>
               <li>
-                Was Hands-on with coding front-end to a few tools alongside an
-                engineering team.
+                Implemented component-driven UI architecture using Chakra UI,
+                Radix UI primitives for accessibility and Tailwind CSS for
+                styling.
               </li>
               <li>
-                Helped create the concepts by liaising with the CEO &amp;
-                potential customers.
+                Developed shop management tools that streamlined day-to-day
+                operations and improved efficiency.
               </li>
               <li>
-                Lead a team of 15 engineers and revamped the processes by
-                implementing weekly code sprints, agile methodologies and code
-                reviews.
+                Created Edge workers for Lush.com URL redirecting, enhancing
+                site performance and SEO.
               </li>
               <li>
-                Created a cross-platform connection that resulted in an increase
-                in our B2B sales by 285%
+                Implemented internationalisation support for global markets.
               </li>
               <li>
-                Created, employed and trained a team of UI/UX Designers to
-                result in tangible improvements in sprint delivery speeds.
+                Collaborated with UX/UI designers to implement pixel-perfect
+                interfaces following brand guidelines.
               </li>
               <li>
-                Ran customer interviews and demos to pinpoint pain points and
-                transformed them into software solutions.
+                Established Jest testing patterns for React components with
+                React Testing Library for high test coverage.
               </li>
               <li>
-                Transformed our decision-making process by implementing key
-                metric tracking tools.
+                Mentored junior developers on React best practices and component
+                composition patterns.
+              </li>
+              <li>
+                Participated in Agile development processes, including daily
+                stand-ups, sprint planning, and retrospectives.
               </li>
             </ul>
-            <p className="fancy">Product Portfolio Included 11 products.</p>
           </div>
           <div
             className={
@@ -167,38 +192,50 @@ function Experience() {
             }
           >
             <span>
-              Product Manager <a className="animate">@ Selected Resorts</a>
+              Technical Business & Product Manager{" "}
+              <a className="animate">@ Selected Group</a>
             </span>
-            <p>August 2019 - May 2022</p>
+            <p>2019 - 2022</p>
             <p>
-              Revolutionising Residential Communities with an ecosystem of Apps
-              &amp; Services.
+              Led a team of 15 engineers, revamping processes by implementing
+              weekly code sprints, agile methodologies, and code reviews.
             </p>
             <ul>
-              <li>Fixed 80+ issues in the back office front-end backlog.</li>
               <li>
-                Took over the product that had been stagnant for months and
-                renewed it by setting its north start, creating user personas
-                and building a team from our pool of engineers.
+                Created cross-platform connections that resulted in a 285%
+                increase in B2B sales.
               </li>
               <li>
-                Created a suite of tools based on residents problems and revived
-                the app.
+                Built and managed a team of UX/UX Designers, resulting in
+                tangible improvements in sprint delivery speeds.
               </li>
               <li>
-                Improved user activity by 420% and increased weekly users
-                sessions from 1 to 3.9.
+                Collaborated with the CEO and potential customers to develop
+                product concepts and roadmaps.
               </li>
               <li>
-                Lead a team of 6 Engineers and 1 UI/UX, helped fill gaps in both
-                departments when needed.
+                Conducted customer interviews and demos to identify pain points
+                and transform them into software solutions.
               </li>
               <li>
-                Implemented weekly sprints, agile and shape-up methodologies.
+                Transformed decision-making processes by implementing key metric
+                tracking tools.
               </li>
               <li>
-                Built extra tools within the ecosystem to increase revenue
-                streams.
+                Managed a portfolio of 11 products within the hospitality
+                industry.
+              </li>
+              <li>
+                Developed and executed product strategy for Selected EPOS system
+                for retail and hospitality businesses.
+              </li>
+              <li>
+                Created and implemented standardized documentation practices
+                across all products.
+              </li>
+              <li>
+                Established OKRs and KPIs for product teams, increasing
+                accountability and performance tracking.
               </li>
             </ul>
           </div>
@@ -210,60 +247,43 @@ function Experience() {
             }
           >
             <span>
-              Media Project Manager <a className="animate">@ Selected Group</a>
+              Wedsite.ai <a className="animate">@ Personal Project</a>
             </span>
-            <p>Feb 2019 - July 2020</p>
-            <p>
-              Media Production studio built parallel to other projects while at
-              Selected to improve revenue streams.
-            </p>
-            <ul>
-              <li>Fixed 80+ issues in the back office front-end backlog.</li>
-              <li>
-                Created and coached a team of animators, video editors and
-                camera operators.
-              </li>
-              <li>
-                Built a sprint methodology to increase speed and quality of
-                deliverables
-              </li>
-              <li>Built a whole new Revenue Stream for the company.</li>
-            </ul>
-          </div>
-          <div
-            className={
-              experience === 4
-                ? "block animated animatedFadeInUp fadeInUp"
-                : "hidden"
-            }
-          >
-            <span>
-              Business Development Manager{" "}
-              <a className="animate">@Diliviri.com</a>
-            </span>
-            <p>July 2018 - November 2019</p>
-            <p>
-              Fleet software and service built to provide control back to food
-              &amp; retail companies trapped by titan solutions such as
-              Deliveroo and Uber.
-            </p>
+            <p>2024 - 2025</p>
+            <p>Full-stack AI-powered website builder platform</p>
             <ul>
               <li>
-                Employed, managed and lead a team of engineers, sales &amp;
-                fleet drivers.
+                Designed and implemented the entire platform from scratch,
+                including infrastructure, frontend, backend, and deployment
+                pipelines.
               </li>
               <li>
-                Signed up 25+ Businesses locally to launch our original
-                projects.
+                Built a drag-and-drop website editor with React, TypeScript and
+                custom UI components for intuitive site creation.
               </li>
               <li>
-                {
-                  "Redirected the company's focus from physical services to purely working on the Dispatching software."
-                }
+                Developed automated subdomain and custom domain publishing
+                system with SSL certificate provisioning.
               </li>
               <li>
-                Improved Driver Drops per trip by 45% while also identifying and
-                improving other key metrics.
+                Created a guest editor feature allowing event hosts to send RSVP
+                requests and collect responses via email.
+              </li>
+              <li>
+                Implemented password-protected sites with secure authentication
+                and visitor management.
+              </li>
+              <li>
+                Integrated AI-powered onboarding tools to help users create
+                websites faster with natural language prompts.
+              </li>
+              <li>
+                Architected the system as a scalable system with automatic CI/CD
+                pipelines for continuous deployment.
+              </li>
+              <li>
+                Built a responsive design system with Tailwind CSS that adapts
+                to all device sizes.
               </li>
             </ul>
           </div>
