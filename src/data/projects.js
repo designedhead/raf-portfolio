@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Wedsite.ai",
+    description:
+      "Full-stack AI-powered website builder platform with drag-and-drop editor, automated subdomain system, and AI-powered onboarding tools.",
+    link: "https://wedsite.ai",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "AI"],
+  },
+  {
     title: "SAM - Lush",
     description:
       "Business Tool to help manage day to day in the retail stores, tracking stock, customer orders, deliveries, wastage and more.",
@@ -25,12 +32,12 @@ export const projects = [
     description:
       "Backend to connect front-end chatbot with Lush's internal systems to track orders and customer queries.",
     link: "https://lush.com",
-    tags: ["Typescript", "Express.js"],
+    tags: ["Typescript", "Express.js", "GraphQL", "AWS"],
   },
   {
     title: "Video Template Library",
     description:
-      "Built for a Video Marketing Company, to share in-house built templates accross the company affectively.",
+      "Built for a Video Marketing Company, to share in-house built templates across the company effectively.",
     link: "https://library.rafaelmendes.co.uk/",
     tags: [
       "Typescript",
@@ -46,42 +53,11 @@ export const projects = [
     link: "https://video.rafaelmendes.co.uk",
   },
   {
-    title: "SAM - Lord of Misrule",
-    description:
-      "Heavily styled and animated landing page with commerce functionality. Built with with a team of animators and designers.",
-    link: "https://lom.lush.com/uk/en?_gl=1*1n23pum*_ga*MTQxNDM5NDQ0NC4xNjYwNzUxMDA1*_ga_MVBMWFB13V*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA.*_ga_E68EJV3RYF*MTY2NjI2NTM3Ny4yMS4xLjE2NjYyNjU0MjQuMC4wLjA",
-    tags: ["React.js", "Next.js", "StyledComponents"],
-  },
-  {
     title: "Lush.com - Redirector Edge Worker",
     description:
       "Backoffice & Cloud worker to manage redirects. Edge Redirection, Bulk upload, url validation for uniqueness, valid response, etc",
     link: "https://lush.com",
     tags: ["React.js", "Next.js", "Apollo", "Chakra UI", "Auth0"],
-  },
-  {
-    title: "Selected Tipping",
-    description:
-      "Built end-user tipping app allowing customers to pay for a percentage based fee or a custom amount with stripe. ",
-    github: "",
-    link: "/img/tipping.jpg",
-    tags: ["React.js", "Tailwind Css", "Stripe.js"],
-  },
-  {
-    title: "Lux Heating",
-    description:
-      "Company website with a custom quote requesting system built with react hook forms.",
-    github: "https://github.com/designedhead/Lux-Website",
-    link: "https://luxheating.co.uk/",
-    tags: ["React.js", "Next.js", "React-Hook-Form"],
-  },
-  {
-    title: "Resorts Website",
-    description:
-      "Company website created with Internationalization built to detect browser language and adjust accordingly.",
-    github: "",
-    link: "https://www.selectedresorts.com/",
-    tags: ["React.js", "Next.js", "React-Hook-Form"],
   },
   {
     title: "See other Projects",
