@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "GraphQL Query Toolkit",
+    description:
+      "A comprehensive GraphQL integration package that provides tRPC-like developer experience with type-safe cache management, multi-endpoint support, and React Query integration.",
+    github: "https://www.npmjs.com/package/graphql-query-toolkit",
+    tags: ["GraphQL", "TypeScript", "React Query", "tRPC-like", "package"],
+  },
+  {
     title: "React Focus Point",
     description:
       "A React component that enables dynamic focal point positioning for responsive images, ensuring the main subject remains visible across different screen sizes and aspect ratios.",
