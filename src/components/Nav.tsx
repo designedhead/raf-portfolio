@@ -17,9 +17,7 @@ export default function Nav() {
     };
   }, []);
 
-  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, target: string) => {
-    e.preventDefault();
-    document.querySelector(target)?.scrollIntoView({ behavior: 'smooth' });
+  const closeMobileMenu = () => {
     setMobileMenuOpen(false);
   };
 
@@ -66,7 +64,6 @@ export default function Nav() {
             <a
               href="#about"
               className="text-title-dark hover:text-primary transition-colors font-mono text-sm"
-              onClick={(e) => handleSmoothScroll(e, '#about')}
             >
               <span className="text-primary">01.</span> About
             </a>
@@ -75,7 +72,6 @@ export default function Nav() {
             <a
               href="#skillset"
               className="text-title-dark hover:text-primary transition-colors font-mono text-sm"
-              onClick={(e) => handleSmoothScroll(e, '#skillset')}
             >
               <span className="text-primary">02.</span> Skills
             </a>
@@ -84,7 +80,6 @@ export default function Nav() {
             <a
               href="#experience"
               className="text-title-dark hover:text-primary transition-colors font-mono text-sm"
-              onClick={(e) => handleSmoothScroll(e, '#experience')}
             >
               <span className="text-primary">03.</span> Experience
             </a>
@@ -93,7 +88,6 @@ export default function Nav() {
             <a
               href="#projects"
               className="text-title-dark hover:text-primary transition-colors font-mono text-sm"
-              onClick={(e) => handleSmoothScroll(e, '#projects')}
             >
               <span className="text-primary">04.</span> Work
             </a>
@@ -102,7 +96,6 @@ export default function Nav() {
             <a
               href="#contact"
               className="text-title-dark hover:text-primary transition-colors font-mono text-sm"
-              onClick={(e) => handleSmoothScroll(e, '#contact')}
             >
               <span className="text-primary">05.</span> Contact
             </a>
@@ -151,7 +144,7 @@ export default function Nav() {
             <li>
               <a
                 href="#about"
-                onClick={(e) => handleSmoothScroll(e, '#about')}
+                onClick={closeMobileMenu}
                 className="text-2xl text-title-dark hover:text-primary transition-colors font-mono"
               >
                 <span className="text-primary">01.</span> About
@@ -160,7 +153,7 @@ export default function Nav() {
             <li>
               <a
                 href="#skillset"
-                onClick={(e) => handleSmoothScroll(e, '#skillset')}
+                onClick={closeMobileMenu}
                 className="text-2xl text-title-dark hover:text-primary transition-colors font-mono"
               >
                 <span className="text-primary">02.</span> Skills
@@ -169,7 +162,7 @@ export default function Nav() {
             <li>
               <a
                 href="#experience"
-                onClick={(e) => handleSmoothScroll(e, '#experience')}
+                onClick={closeMobileMenu}
                 className="text-2xl text-title-dark hover:text-primary transition-colors font-mono"
               >
                 <span className="text-primary">03.</span> Experience
@@ -178,7 +171,7 @@ export default function Nav() {
             <li>
               <a
                 href="#projects"
-                onClick={(e) => handleSmoothScroll(e, '#projects')}
+                onClick={closeMobileMenu}
                 className="text-2xl text-title-dark hover:text-primary transition-colors font-mono"
               >
                 <span className="text-primary">04.</span> Work
@@ -187,7 +180,7 @@ export default function Nav() {
             <li>
               <a
                 href="#contact"
-                onClick={(e) => handleSmoothScroll(e, '#contact')}
+                onClick={closeMobileMenu}
                 className="text-2xl text-title-dark hover:text-primary transition-colors font-mono"
               >
                 <span className="text-primary">05.</span> Contact
