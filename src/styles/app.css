@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors from legacy portfolio */
+  --color-primary: #63ffda;
+  --color-secondary: #133040;
+  --color-title-light: #ccd6f6;
+  --color-title-dark: #8892b0;
+  --color-card: rgb(17 34 64 / 70%);
+  --color-background: #0b192e;
+
+  /* Font families */
+  --font-family-mono: "Roboto Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-title-light;
+    scroll-behavior: smooth;
+  }
+
+  /* Scroll offset for anchor links */
+  section[id] {
+    scroll-margin-top: 120px;
+  }
+}

@@ -1,0 +1,72 @@
+---
+// Hero component - Main landing section
+---
+
+<section
+  id="hero"
+  class="min-h-screen flex flex-col justify-center px-6 md:px-24 lg:px-32 max-w-7xl mx-auto"
+>
+  <h1 class="text-primary font-mono text-base md:text-lg mb-6 animate-slide-up">
+    Hi, my name is
+  </h1>
+  <h2
+    class="text-5xl md:text-7xl font-bold text-title-light mb-4 animate-slide-up-delay-1"
+  >
+    Rafael Mendes.
+  </h2>
+  <h3
+    class="text-4xl md:text-6xl font-bold text-title-dark mb-8 animate-slide-up-delay-2"
+  >
+    I build things.
+  </h3>
+  <p
+    class="text-lg md:text-xl text-title-dark max-w-2xl mb-12 animate-slide-up-delay-3"
+  >
+    Full Stack Engineer with a Product Manager and UI/UX Background.
+  </p>
+  <div>
+    <a
+      href="#projects"
+      class="inline-block px-8 py-4 border-2 border-primary text-primary rounded-md hover:bg-primary/10 transition-colors font-mono text-sm animate-slide-up-delay-4"
+    >
+      View Projects
+    </a>
+  </div>
+</section>
+
+<style>
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up-delay-1 {
+    animation: slide-up 0.6s ease-out 0.1s forwards;
+    opacity: 0;
+  }
+
+  .animate-slide-up-delay-2 {
+    animation: slide-up 0.6s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+
+  .animate-slide-up-delay-3 {
+    animation: slide-up 0.6s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+
+  .animate-slide-up-delay-4 {
+    animation: slide-up 0.6s ease-out 0.4s forwards;
+    opacity: 0;
+  }
+</style>

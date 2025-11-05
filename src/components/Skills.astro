@@ -1,0 +1,77 @@
+---
+import { skills } from "../data/skills";
+import TechIcon from "./TechIcon.astro";
+---
+
+<section
+  id="skillset"
+  class="min-h-[70vh] py-24 px-6 md:px-24 lg:px-32"
+>
+  <div class="max-w-4xl mx-auto">
+  <div class="mb-12">
+    <h2
+      class="text-3xl md:text-4xl font-bold text-title-light mb-4 flex items-center gap-4"
+    >
+      <span class="text-primary font-mono text-xl md:text-2xl font-normal">03.</span>
+      My Skillset
+      <div class="flex-1 h-px bg-title-dark/30"></div>
+    </h2>
+  </div>
+
+  <div
+    id="skills-grid"
+    class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
+  >
+    {
+      skills.map((skill) => (
+        <div class="skill-card group relative p-6 rounded-lg border border-title-dark/20 bg-card hover:border-primary/50 transition-all duration-300">
+          <div class="skill-card-glow absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-lg" />
+          <div class="relative z-10 flex flex-col items-center gap-3">
+            <div class="text-primary">
+              <TechIcon name={skill.icon} />
+            </div>
+            <h4 class="text-sm md:text-base text-title-light font-medium text-center">
+              {skill.name}
+            </h4>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+  </div>
+</section>
+
+<script>
+  // Mouse glow effect
+  const skillsGrid = document.getElementById("skills-grid");
+
+  if (skillsGrid) {
+    skillsGrid.addEventListener("mousemove", (e: MouseEvent) => {
+      const cards = document.querySelectorAll(".skill-card");
+
+      cards.forEach((card) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        (card as HTMLElement).style.setProperty("--mouse-x", `${x}px`);
+        (card as HTMLElement).style.setProperty("--mouse-y", `${y}px`);
+      });
+    });
+  }
+</script>
+
+<style>
+  .skill-card {
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+  }
+
+  .skill-card-glow {
+    background: radial-gradient(
+      600px circle at var(--mouse-x) var(--mouse-y),
+      rgba(99, 255, 218, 0.15),
+      transparent 40%
+    );
+  }
+</style>

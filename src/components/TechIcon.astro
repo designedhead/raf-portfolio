@@ -1,0 +1,68 @@
+---
+import type { IconName } from "../types/icons";
+import {
+  siTypescript,
+  siJavascript,
+  siPython,
+  siReact,
+  siNextdotjs,
+  siVuedotjs,
+  siNodedotjs,
+  siGraphql,
+  siPostgresql,
+  siDocker,
+  siKubernetes,
+  siTerraform,
+  siJest,
+  siGit,
+  siGithubactions,
+  siRedis,
+  siTailwindcss,
+} from "simple-icons";
+
+interface Props {
+  name: IconName;
+}
+
+const { name } = Astro.props;
+
+const iconMap: Record<IconName, any> = {
+  typescript: siTypescript,
+  react: siReact,
+  nextdotjs: siNextdotjs,
+  nodedotjs: siNodedotjs,
+  graphql: siGraphql,
+  postgresql: siPostgresql,
+  docker: siDocker,
+  kubernetes: siKubernetes,
+  terraform: siTerraform,
+  jest: siJest,
+  git: siGit,
+  githubactions: siGithubactions,
+  redis: siRedis,
+  tailwindcss: siTailwindcss,
+};
+
+const icon = iconMap[name];
+const iconPath = icon?.path || "";
+const iconTitle = icon?.title || name;
+---
+
+{
+  iconPath ? (
+    <svg
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-10 h-10 md:w-12 md:h-12"
+      fill="currentColor"
+    >
+      <title>{iconTitle}</title>
+      <path d={iconPath} />
+    </svg>
+  ) : (
+    <div class="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-2xl">
+      {name.slice(0, 2).toUpperCase()}
+    </div>
+  )
+}

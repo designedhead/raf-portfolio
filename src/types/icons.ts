@@ -1,0 +1,16 @@
+// Available icon names from simple-icons
+export type IconName =
+  | 'typescript'
+  | 'react'
+  | 'nextdotjs'
+  | 'nodedotjs'
+  | 'graphql'
+  | 'postgresql'
+  | 'docker'
+  | 'kubernetes'
+  | 'terraform'
+  | 'jest'
+  | 'git'
+  | 'githubactions'
+  | 'redis'
+  | 'tailwindcss'
