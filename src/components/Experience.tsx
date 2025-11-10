@@ -50,14 +50,14 @@ export default function Experience() {
         </div>
 
         {/* Content */}
-        <div className="min-h-[400px]">
+        <div className="min-h-[400px] relative">
           {experience.map((exp, index) => (
             <div
               key={exp.id}
               className={`transition-all duration-300 ${
                 selectedExperience === index
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 absolute pointer-events-none'
+                  ? 'opacity-100 translate-y-0 relative'
+                  : 'opacity-0 translate-y-2 absolute top-0 left-0 pointer-events-none invisible'
               }`}
             >
               <h3 className="text-xl md:text-2xl font-semibold text-title-light mb-2">
